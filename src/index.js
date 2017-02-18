@@ -10,7 +10,7 @@ const store = configureStore()
 
 render(
   <Provider store={store}>
-	{routes(store)}
+    {routes(store)}
   </Provider>,
   document.getElementById('root')
 )

@@ -11,13 +11,12 @@ import {
 export default function routes() {
   return (
     <Router history={browserHistory}>
-      
       <Route
         path="/"
         component={App}
       />
       <Route
-        path="skachat"
+        path="/skachat"
         component={Skachat}
       />
     </Router>

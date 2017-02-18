@@ -11,7 +11,7 @@ class App extends Component {
   render() {
     const { user, page } = this.props
     const { setYear, setPage } = this.props.pageActions
-    const navList = [ 'главная', 'Скачать дкп', 'Заполнить онлайн', 'Образец дкп', 'Акт приёза-передачи', 'Правила продажи', 'Новости', 'Госпошлины', 'Контакты' ]
+    const navList = [ 'Главная', 'Скачать дкп', 'Заполнить онлайн', 'Образец дкп', 'Акт приёза-передачи', 'Правила продажи', 'Новости', 'Госпошлины', 'Контакты' ]
     return (
       <div>
         <User

@@ -21,7 +21,7 @@ export default class Navigation extends Component {
       <Nav bsStyle="pills" stacked activeKey={this.state.page}>
         {
           this.state.pageName.map((item) =>
-            <Link to={'/Skachat'}>
+            <Link to="/skachat">
               <NavItem
                 eventKey={this.state.pageName.indexOf(item)+1}
                 id={this.state.pageName.indexOf(item)+1}
